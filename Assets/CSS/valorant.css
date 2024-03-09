@@ -37,20 +37,20 @@ header{
     padding: 0.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color: #3a3a3a;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
-    opacity: 30%;
+    opacity: 50%;
     font-size: 2.5rem;
-    box-shadow: 0px 4px 10px #000000;
-    transition: .3s;
+    transition: .6s;
     z-index: 1;
 }
 header:hover{
+    background-color: #3a3a3a;
+    box-shadow: 0px 4px 10px #000000;
     opacity: 100%;
-    transition: .3s;
+    transition: .6s;
 }
 
 nav{
@@ -86,23 +86,24 @@ nav{
 /* HEADER */
 
 main{
+    /* border: 1rem solid var(--valorant); */
     width: 100%;
     min-height: 70vh;
-    background-image: url(../Images/valorant-305kescxw5dpup7y.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #101b21),url(../Images/valorant-305kescxw5dpup7y.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
     display: flex;
-    border: 1rem solid var(--valorant);
-    box-shadow: 0px 0px 10px;
+    /* box-shadow: 0px 0px 10px; */
 }
 
 .btn{
     font-size: 6rem;
     color: var(--valorant);
     border: 3px solid var(--valorant);
-    padding: 8px 3.5rem;
+    margin: 2rem;
+    /* padding: 8px 3.5rem; */
     transition: .3s;
     font-weight: 600;
 }
@@ -111,3 +112,116 @@ main{
     color: #fff;
     border: 3px solid #fff;
 }
+/* Header */
+
+/* div */
+.hero{
+    background-color: var(--ddvalorant);
+    padding: 2rem;
+    display: grid;
+    grid-template-areas: "title" "subtitle";
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.hero h1{
+    font-size: 4.5rem;
+    font-family: "VALORANT";
+    grid-area: title;
+    color: var(--valorant);
+}
+
+.hero p{
+    font-size: 2rem;
+    grid-area: subtitle;
+    color: #fff;
+    padding: 2rem;
+}
+/* div */
+
+.mapas{
+    font-family: "VALORANT";
+    color: var(--valorant);
+    font-size: 4.5rem;
+    border-top: 3px solid var(--valorant);
+    background-color: var(--ddvalorant);
+    padding: 5rem;
+    text-align: center;
+}
+
+/* cards */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    grid-template-areas: 
+        "card1 card2 card3"
+        "card4 card5 card6";
+    padding: 0 2rem;
+    background-color: var(--ddvalorant);
+    padding-bottom: 5rem;
+}
+    
+.card{
+    border-radius: 3px;
+    background-color: var(--valorant);
+    padding: 1rem;
+    text-align: center;
+}
+
+.card h2{
+    color: #fff;
+    font-family: "VALORANT";
+    font-size: 3rem;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.card1{
+    grid-area: card1;
+}
+
+.card2{
+    grid-area: card2;
+}
+
+.card3{
+    grid-area: card3;
+}
+
+.card4{
+    grid-area: card4;
+}
+
+.card5{
+    grid-area: card5;
+}
+
+.card6{
+    grid-area: card6;
+}
+/* cards */
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: .3rem;
+    font-size: 1.6rem;
+    background-color: var(--valorant);
+    display: flex;
+    justify-content: center;
+}
+
+.footer:hover{
+    transform: scale(1.02);
+}
+/* footer */

@@ -37,21 +37,21 @@ header{
     padding: 0.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color: #3a3a3a;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position:fixed;
-    opacity: 30%;
+    opacity: 50%;
     font-size: 2.5rem;
-    box-shadow: 0px 4px 10px #000000;
-    transition: .3s;
+    transition: var(--transition);
     z-index: 1;
     color: #fff;
 }
 header:hover{
+    background-color: #3a3a3a;
+    box-shadow: 0px 4px 10px #000000;
     opacity: 100%;
-    transition: .3s;
+    transition: var(--transition);
 }
 
 nav{
@@ -95,6 +95,7 @@ main{
     background-size: cover;
     align-items: center;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .va{
