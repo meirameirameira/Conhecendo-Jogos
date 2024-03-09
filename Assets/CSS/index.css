@@ -1,89 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lexend", sans-serif;
-}
-
-/* HTML */
-html{
-    font-size: 62.5%;
-    scrollbar-width: none;
-    scroll-behavior:smooth;
-}
-
-body{
-    font-size: 1.6rem;
-}
-
-a{
-    text-decoration: none;
-    color: #fff;
-    transition: .3s;
-}
-
-ul{
-    list-style: none;
-}
-
-img{
-    max-width: 100%;
-}
-/* HTML */
-
-/* HEADER */
-header{
-    width: 100%;
-    padding: 0.5rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    position:fixed;
-    opacity: 50%;
-    font-size: 2.5rem;
-    transition: var(--transition);
-    z-index: 1;
-    color: #fff;
-}
-header:hover{
-    background-color: #3a3a3a;
-    box-shadow: 0px 4px 10px #000000;
-    opacity: 100%;
-    transition: var(--transition);
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu{
-    font-weight: 500;
-    padding: 1rem;
-}
-
-.home:hover{
-    color: #5f5f5f;
-}
-
-.vavalo:hover{
-    color: var(--valorant);
-}
-
-.csss2:hover{
-    color: var(--cs);
-}
-
-.wazo2:hover{
-    color: var(--warzone);
-}
-
-.frtnt:hover{
-    color: var(--fortnite);
-}
 /* HEADER */
 
 /* JOGOS */
@@ -214,3 +128,38 @@ main{
     color: #fff;
 }
 /* Saiba Mais */
+
+/* Comparação */
+.tabela{
+    width: 100%;
+    height: auto;
+    background-color: var(--background);
+
+}
+/* Comparação */
+.comp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+}
+
+.tabela h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+table{
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    width: 80vh;
+    color: #fff ;
+    margin: 7rem;
+    text-align: center;
+}
+
+td,th{
+    padding: 4rem;
+    border-bottom: 1px solid #fff;
+}
