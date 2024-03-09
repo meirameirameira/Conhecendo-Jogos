@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+}
+
+/* HTML */
+html{
+    font-size: 62.5%;
+    scrollbar-width: none;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+/* HTML */
+
+/* HEADER */
+header{
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #3a3a3a;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    opacity: 30%;
+    font-size: 2.5rem;
+    box-shadow: 0px 4px 10px #000000;
+    transition: .3s;
+    z-index: 1;
+}
+header:hover{
+    opacity: 100%;
+    transition: .3s;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.home:hover{
+    color: #5f5f5f;
+}
+
+.vaval:hover{
+    color: var(--valorant);
+}
+
+.css2:hover{
+    color: var(--cs);
+}
+
+.waz2:hover{
+    color: var(--warzone);
+}
+
+.frtn:hover{
+    color: var(--fortnite);
+}
+/* HEADER */
+
+main{
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(../Images/call-of-duty-warzone-2-4k-wallpaper--20529.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    border: 1rem solid var(--warzone);
+    box-shadow: 0px 0px 10px;
+}
+
+.btn{
+    font-size: 6rem;
+    color: var(--warzone);
+    border: 3px solid var(--warzone);
+    padding: 8px 3.5rem;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.vava:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}

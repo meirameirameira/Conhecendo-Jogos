@@ -8,6 +8,7 @@
 /* HTML */
 html{
     font-size: 62.5%;
+    scrollbar-width: none;
     scroll-behavior:smooth;
 }
 
@@ -40,12 +41,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: fixed;
-    opacity: 20%;
+    position:fixed;
+    opacity: 30%;
     font-size: 2.5rem;
     box-shadow: 0px 4px 10px #000000;
     transition: .3s;
     z-index: 1;
+    color: #fff;
 }
 header:hover{
     opacity: 100%;
@@ -61,6 +63,26 @@ nav{
 .menu{
     font-weight: 500;
     padding: 1rem;
+}
+
+.home:hover{
+    color: #5f5f5f;
+}
+
+.vavalo:hover{
+    color: var(--valorant);
+}
+
+.csss2:hover{
+    color: var(--cs);
+}
+
+.wazo2:hover{
+    color: var(--warzone);
+}
+
+.frtnt:hover{
+    color: var(--fortnite);
 }
 /* HEADER */
 
@@ -89,23 +111,6 @@ main{
 }
 .ft{
     background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e), url(../Images/ft\ b.png);
-    transition: .3s;
-}
-
-.va:hover{
-    /* transform: scale(1.04); */
-    transition: .3s;
-}
-.cs:hover{
-    /* transform: scale(1.04); */
-    transition: .3s;
-}
-.wz:hover{
-    /* transform: scale(1.04); */
-    transition: .3s;
-}
-.ft:hover{
-    /* transform: scale(1.04); */
     transition: .3s;
 }
 
@@ -158,47 +163,53 @@ main{
 }
 
 .vava:hover{
-    color: #ff4655;
+    color: var(--valorant);
+    border: 3px solid var(--valorant);
 }
 .cs2:hover{
-    color: #e58716;
+    color: var(--cs);
+    border: 3px solid var(--cs);
 }
 .wz2:hover{
-    color: #75be26;
+    color: var(--warzone);
+    border: 3px solid var(--warzone);
 }
 .ftn:hover{
-    color: #00dafe;
+    color: var(--fortnite);
+    border: 3px solid var(--fortnite);
 }
 /* DOWNLOADS */
 
 /* Saiba Mais */
+.vaval{
+    color: var(--valorant);
+}
 
+.css2{
+    color: var(--cs);
+}
 
+.waz2{
+    color: var(--warzone);
+}
 
+.frtn{
+    color: var(--fortnite);
+}
 
+.vaval:hover{
+    color: #fff;
+}
 
+.css2:hover{
+    color: #fff;
+}
 
+.waz2:hover{
+    color: #fff;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.frtn:hover{
+    color: #fff;
+}
+/* Saiba Mais */
