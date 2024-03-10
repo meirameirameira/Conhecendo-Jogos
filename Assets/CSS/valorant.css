@@ -1,5 +1,4 @@
 /* HEADER */
-
 main{
     /* border: 1rem solid var(--valorant); */
     width: 100%;
@@ -11,21 +10,6 @@ main{
     align-items: center;
     display: flex;
     /* box-shadow: 0px 0px 10px; */
-}
-
-.btn{
-    font-size: 6rem;
-    color: var(--valorant);
-    border: 3px solid var(--valorant);
-    margin: 2rem;
-    /* padding: 8px 3.5rem; */
-    transition: .3s;
-    font-weight: 600;
-}
-
-.vava:hover{
-    color: #fff;
-    border: 3px solid #fff;
 }
 /* Header */
 
@@ -72,18 +56,18 @@ main{
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     grid-template-areas: 
-        "card1 card2 card3"
-        "card4 card5 card6";
+    "card1 card2 card3"
+    "card4 card5 card6";
     padding: 0 2rem;
     background-color: var(--ddvalorant);
-    padding-bottom: 5rem;
 }
-    
+
 .card{
     border-radius: 3px;
     background-color: var(--valorant);
     padding: 1rem;
     text-align: center;
+    transition: .3s;
 }
 
 .card h2{
@@ -94,6 +78,7 @@ main{
 
 .card:hover{
     transform: scale(1.02);
+    transition: .3s;
 }
 
 .card img{
@@ -125,6 +110,41 @@ main{
     grid-area: card6;
 }
 /* cards */
+
+.hero-content2 {
+    transition: 0.3s;
+    width: 100%;
+    padding: 6rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--ddvalorant);
+}
+
+.hero-content2 h1 {
+    text-align: center;
+}
+
+.hero-content2:hover {
+    transition: 0.3s;
+}
+
+.btn{
+    font-size: 6rem;
+    color: var(--valorant);
+    border: 3px solid var(--valorant);
+    margin: 2rem;
+    padding: 8px 3.5rem;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #fff;
+    border: 3px solid #fff;
+}
 
 /* footer */
 .footer{

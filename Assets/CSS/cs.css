@@ -1,34 +1,4 @@
-/* HEADER */
-
-main{
-    /* border: 1rem solid var(--valorant); */
-    width: 100%;
-    min-height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), #101b21),url(../Images/valorant-305kescxw5dpup7y.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    display: flex;
-    /* box-shadow: 0px 0px 10px; */
-}
-
-.btn{
-    font-size: 6rem;
-    color: var(--valorant);
-    border: 3px solid var(--valorant);
-    margin: 2rem;
-    /* padding: 8px 3.5rem; */
-    transition: .3s;
-    font-weight: 600;
-}
-
-.vava:hover{
-    color: #fff;
-    border: 3px solid #fff;
-}
 /* Header */
-
 main{
     /* border: 1rem solid var(--valorant); */
     width: 100%;
@@ -40,21 +10,6 @@ main{
     align-items: center;
     display: flex;
     /* box-shadow: 0px 0px 10px; */
-}
-
-.btn{
-    font-size: 6rem;
-    color: var(--cs);
-    border: 3px solid var(--cs);
-    margin: 2rem;
-    /* padding: 8px 3.5rem; */
-    transition: .3s;
-    font-weight: 600;
-}
-
-.vava:hover{
-    color: #fff;
-    border: 3px solid #fff;
 }
 /* Header */
 
@@ -104,7 +59,6 @@ main{
         "card1 card2 card3";
     padding: 0 2rem;
     background-color: var(--ddcs);
-    padding-bottom: 5rem;
 }
     
 .card{
@@ -112,6 +66,7 @@ main{
     background-color: var(--cs);
     padding: 1rem;
     text-align: center;
+    transition: .3s;
 }
 
 .card h2{
@@ -122,6 +77,7 @@ main{
 
 .card:hover{
     transform: scale(1.02);
+    transition: .3s;
 }
 
 .card img{
@@ -142,6 +98,42 @@ main{
     grid-area: card3;
 }
 /* cards */
+
+.hero-content2 {
+    transition: 0.3s;
+    width: 100%;
+    padding: 6rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--ddcs);
+}
+
+.hero-content2 h1 {
+    text-align: center;
+}
+
+.hero-content2:hover {
+    transition: 0.3s;
+}
+
+.btn{
+    font-size: 6rem;
+    color: var(--cs);
+    border: 3px solid var(--cs);
+    margin: 2rem;
+    padding: 8px 3.5rem;
+    transition: .3s;
+    font-weight: 600;
+}
+
+.btn:hover{
+    color: #fff;
+    border: 3px solid #fff;
+    transform: scale(1.03);
+}
 
 /* footer */
 .footer{

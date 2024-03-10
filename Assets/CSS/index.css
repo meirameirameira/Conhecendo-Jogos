@@ -1,7 +1,7 @@
 /* HEADER */
 
 /* JOGOS */
-main{
+main {
     width: 100%;
     min-height: 70vh;
     background-position: center;
@@ -12,42 +12,46 @@ main{
     flex-wrap: nowrap;
 }
 
-.va{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e), url(../Images/va\ b.png);
-    transition: .3s;
+.va {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+    url(../Images/va\ b.png);
+    transition: 0.3s;
 }
-.cs{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e), url(../Images/cs\ b.png);
-    transition: .3s;
+.cs {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+    url(../Images/cs\ b.png);
+    transition: 0.3s;
 }
-.wz{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e), url(../Images/wz\ bpng.png);
-    transition: .3s;
+.wz {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+    url(../Images/wz\ bpng.png);
+    transition: 0.3s;
 }
-.ft{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e), url(../Images/ft\ b.png);
-    transition: .3s;
+.ft {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+    url(../Images/ft\ b.png);
+    transition: 0.3s;
 }
 
-.valorant{
+.valorant {
     font-family: "VALORANT";
     font-size: 8rem;
 }
-.counter-strike{
-    font-family: 'Counter-Strike', sans-serif;
+.counter-strike {
+    font-family: "Counter-Strike", sans-serif;
     font-size: 8rem;
 }
-.fortnite{
+.fortnite {
     font-family: "Burbank Big Condensed Black";
     font-size: 13rem;
 }
-.warzone{
+.warzone {
     font-family: "CountachWeb Regular";
     font-size: 13rem;
 }
 
-.hero-content{
-    transition: .3s;
+.hero-content {
+    transition: 0.3s;
     margin: 8rem;
     width: 100%;
     padding: 6rem;
@@ -55,111 +59,116 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+    flex-wrap: wrap;
 }
 
-.hero-content h1{
+.hero-content h1 {
     text-align: center;
 }
 
-.hero-content:hover{
+.hero-content:hover {
     transform: scale(1.03);
-    transition: .3s;
+    transition: 0.3s;
 }
 /* JOGOS */
 
 /* DOWNLOADS */
-.btn{
+.btn {
     font-size: 6rem;
     border: 3px solid #fff;
     padding: 8px 3.5rem;
-    transition: .3s;
+    transition: 0.3s;
     font-weight: 600;
 }
 
-.vava:hover{
+.vava:hover {
     color: var(--valorant);
     border: 3px solid var(--valorant);
 }
-.cs2:hover{
+.cs2:hover {
     color: var(--cs);
     border: 3px solid var(--cs);
 }
-.wz2:hover{
+.wz2:hover {
     color: var(--warzone);
     border: 3px solid var(--warzone);
 }
-.ftn:hover{
+.ftn:hover {
     color: var(--fortnite);
     border: 3px solid var(--fortnite);
 }
 /* DOWNLOADS */
 
 /* Saiba Mais */
-.vaval{
+.vaval {
     color: var(--valorant);
 }
 
-.css2{
+.css2 {
     color: var(--cs);
 }
 
-.waz2{
+.waz2 {
     color: var(--warzone);
 }
 
-.frtn{
+.frtn {
     color: var(--fortnite);
 }
 
-.vaval:hover{
+.vaval:hover {
     color: #fff;
 }
 
-.css2:hover{
+.css2:hover {
     color: #fff;
 }
 
-.waz2:hover{
+.waz2:hover {
     color: #fff;
 }
 
-.frtn:hover{
+.frtn:hover {
     color: #fff;
 }
 /* Saiba Mais */
 
 /* Comparação */
-.tabela{
+.tabela {
     width: 100%;
     height: auto;
     background-color: var(--background);
-
 }
 /* Comparação */
-.comp{
+.comp {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.9rem;
+  /* font-size: 1.9rem; */
 }
 
-.tabela h1{
+.tabela h1 {
     color: #fff;
     text-align: center;
     padding-top: 5rem;
 }
 
-table{
+table {
     border: 2px solid #fff;
     border-collapse: collapse;
-    width: 80vh;
-    color: #fff ;
+  /* width: 80vh; */
+    color: #fff;
     margin: 7rem;
     text-align: center;
 }
 
-td,th{
+td,
+th {
     padding: 4rem;
     border-bottom: 1px solid #fff;
+}
+
+.nome {
+    font-weight: 900;
+    font-size: 2rem;
 }
