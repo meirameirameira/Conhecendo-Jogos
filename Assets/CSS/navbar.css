@@ -50,7 +50,7 @@ header:hover{
     transition: var(--transition);
 }
 
-ul{
+.navbar ul{
     list-style: none;
     display: flex;
     align-items: center;
