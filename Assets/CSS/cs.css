@@ -4,7 +4,7 @@ main {
   width: 100%;
   min-height: 70vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0), #2a377e),
-    url(../Images/awp.jpg);
+    url(../Images/cs/awp.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

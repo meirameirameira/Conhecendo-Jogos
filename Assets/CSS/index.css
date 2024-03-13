@@ -1,4 +1,28 @@
 /* HEADER */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+/* HTML */
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
 
 /* JOGOS */
 main {
@@ -7,39 +31,38 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  align-items: center;
   display: flex;
-  flex-wrap: nowrap;
+  align-items: center;
 }
 
 .va {
   background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
-    url(../Images/va\ b.png);
+    url(../Images/valorant/va\ b.png);
   transition: 0.3s;
 }
 .cs {
   background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
-    url(../Images/cs\ b.png);
+    url(../Images/cs/cs\ b.png);
   transition: 0.3s;
 }
 .wz {
   background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
-    url(../Images/wz\ bpng.png);
+    url(../Images/wz/wz\ bpng.png);
   transition: 0.3s;
 }
 .ft {
   background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
-    url(../Images/ft\ b.png);
+    url(../Images/fort/ft\ b.png);
   transition: 0.3s;
 }
 
 .valorant {
   font-family: "VALORANT";
-  font-size: 8rem;
+  font-size: 9rem;
 }
 .counter-strike {
   font-family: "Counter-Strike", sans-serif;
-  font-size: 8rem;
+  font-size: 9rem;
 }
 .fortnite {
   font-family: "Burbank Big Condensed Black";
@@ -52,7 +75,6 @@ main {
 
 .hero-content {
   transition: 0.3s;
-  margin: 8rem;
   width: 100%;
   padding: 6rem;
   color: #fff;
@@ -60,9 +82,11 @@ main {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  white-space: nowrap;
+  flex-direction: column;
 }
 .hero-content h1 {
-  text-align: center;
+  text-align: left;
 }
 
 .hero-content:hover {
@@ -152,7 +176,8 @@ main {
   padding-top: 5rem;
 }
 
-table {
+.comp table {
+  width: 100%;
   border: 2px solid #fff;
   border-collapse: collapse;
   color: #fff;
@@ -163,7 +188,6 @@ table {
 td,
 th {
   padding: 4rem;
-  border-bottom: 1px solid #fff;
 }
 
 .nome {
@@ -258,3 +282,118 @@ button {
   transition: 0.3s;
 }
 /* Final */
+
+hr {
+  width: 200px;
+  height: 2px;
+  border: none;
+}
+
+@media (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+
+  .media {
+    font-size: 7rem;
+  }
+
+  .img {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    width: 100%;
+  }
+
+  .valorant {
+    font-size: 6rem;
+  }
+  .counter-strike {
+    font-size: 6rem;
+  }
+  .warzone {
+    font-size: 8rem;
+  }
+  .fortnite {
+    font-size: 8rem;
+  }
+
+  .img {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 550px) {
+  main {
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  .valorant {
+    font-size: 6rem;
+  }
+  .counter-strike {
+    font-size: 5rem;
+  }
+  .warzone {
+    font-size: 8rem;
+  }
+  .fortnite {
+    font-size: 8rem;
+  }
+
+  .img {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  main {
+    width: 100%;
+    min-height: 40vh;
+  }
+
+  .valorant {
+    font-size: 5rem;
+  }
+  .counter-strike {
+    font-size: 4.3rem;
+  }
+  .warzone {
+    font-size: 7rem;
+  }
+  .fortnite {
+    font-size: 7rem;
+  }
+
+  .img {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 350px) {
+  main {
+    width: 100%;
+    min-height: 40vh;
+  }
+
+  .valorant {
+    font-size: 4rem;
+  }
+  .counter-strike {
+    font-size: 3rem;
+  }
+  .warzone {
+    font-size: 6rem;
+  }
+  .fortnite {
+    font-size: 6rem;
+  }
+
+  .img {
+    font-size: 2rem;
+  }
+}

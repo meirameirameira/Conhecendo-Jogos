@@ -39,9 +39,9 @@ a {
 .obg {
   width: 100%;
   height: 70vh;
-  align-items: center;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .caixa:hover {
@@ -51,20 +51,16 @@ a {
 
 .obg h1 {
   text-align: center;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 
 .obg p {
   text-align: center;
-  position: relative;
-  left: 130px;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
 }
 
 .caixa {
-  border: 3px solid #fff;
-  border-radius: 10px;
   transition: 0.3s;
   padding: 3rem;
 }
