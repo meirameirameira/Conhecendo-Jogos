@@ -1,153 +1,153 @@
 /* Header */
-main{
-    /* border: 1rem solid var(--valorant); */
-    width: 100%;
-    min-height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), #d80000),url(../Images/call-of-duty-warzone-2-4k-wallpaper--20529.jpg);
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    display: flex;
-    /* box-shadow: 0px 0px 10px; */
+main {
+  /* border: 1rem solid var(--valorant); */
+  width: 100%;
+  min-height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), #d80000),
+    url(../Images/call-of-duty-warzone-2-4k-wallpaper--20529.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  /* box-shadow: 0px 0px 10px; */
 }
 /* Header */
 
 /* div */
-.hero{
-    background-color: #d80000;
-    padding: 2rem;
-    display: grid;
-    grid-template-areas: "title" "subtitle";
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: auto;
+.hero {
+  background-color: #d80000;
+  padding: 2rem;
+  display: grid;
+  grid-template-areas: "title" "subtitle";
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
-.hero h1{
-    font-size: 4.5rem;
-    font-family: "CountachWeb Regular";
-    grid-area: title;
-    color: #fff;
+.hero h1 {
+  font-size: 4.5rem;
+  font-family: "CountachWeb Regular";
+  grid-area: title;
+  color: #fff;
 }
 
-.hero p{
-    font-size: 2rem;
-    grid-area: subtitle;
-    color: #fff;
-    padding: 2rem;
+.hero p {
+  font-size: 2rem;
+  grid-area: subtitle;
+  color: #fff;
+  padding: 2rem;
 }
 /* div */
 
-.mapas{
-    font-family: "CountachWeb Regular";
-    color: #fff;
-    font-size: 4.5rem;
-    border-top: 3px solid #fff;
-    background-color: var(--warzone);
-    padding: 5rem;
-    text-align: center;
+.mapas {
+  font-family: "CountachWeb Regular";
+  color: #fff;
+  font-size: 4.5rem;
+  border-top: 3px solid #fff;
+  background-color: var(--warzone);
+  padding: 5rem;
+  text-align: center;
 }
 
 /* cards */
-.cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
-    grid-template-areas: 
-        "card1 card2 card3";
-    padding: 0 2rem;
-    background-color: var(--warzone);
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  grid-template-areas: "card1 card2 card3";
+  padding: 0 2rem;
+  background-color: var(--warzone);
 }
 
-.card{
-    border-radius: 3px;
-    background-color: #fff;
-    padding: 1rem;
-    text-align: center;
-    box-shadow: 0px 0px 15px;
-    transition: .3s;
+.card {
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0px 0px 15px;
+  transition: 0.3s;
 }
 
-.card h2{
-    color: var(--warzone);
-    font-size: 3rem;
-    font-family: "CountachWeb Regular";
+.card h2 {
+  color: var(--warzone);
+  font-size: 3rem;
+  font-family: "CountachWeb Regular";
 }
 
-.card:hover{
-    transform: scale(1.02);
-    transition: .3s;
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
 }
 
-.card img{
-    width: 100%;
-    border-radius: 3px;
-    padding-top: 1rem;
+.card img {
+  width: 100%;
+  border-radius: 3px;
+  padding-top: 1rem;
 }
 
-.card1{
-    grid-area: card1;
+.card1 {
+  grid-area: card1;
 }
 
-.card2{
-    grid-area: card2;
+.card2 {
+  grid-area: card2;
 }
 
-.card3{
-    grid-area: card3;
+.card3 {
+  grid-area: card3;
 }
 /* cards */
 
 .hero-content2 {
-    transition: 0.3s;
-    width: 100%;
-    padding: 6rem;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    background-color: var(--warzone);
+  transition: 0.3s;
+  width: 100%;
+  padding: 6rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: var(--warzone);
 }
 
 .hero-content2 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .hero-content2:hover {
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
-.btn{
-    font-size: 6rem;
-    color: #fff;
-    border: 3px solid #fff;
-    margin: 2rem;
-    padding: 8px 3.5rem;
-    transition: .3s;
-    font-weight: 600;
+.btn {
+  font-size: 6rem;
+  color: #fff;
+  border: 3px solid #fff;
+  margin: 2rem;
+  padding: 8px 3.5rem;
+  transition: 0.3s;
+  font-weight: 600;
 }
 
-.btn:hover{
-    color: var(--dwarzone);
-    border: 3px solid var(--dwarzone);
-    transform: scale(1.03);
+.btn:hover {
+  color: var(--dwarzone);
+  border: 3px solid var(--dwarzone);
+  transform: scale(1.03);
 }
 
 /* footer */
-.footer{
-    text-align: center;
-    padding: .3rem;
-    font-size: 1.6rem;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    color: var(--warzone);
+.footer {
+  text-align: center;
+  padding: 0.3rem;
+  font-size: 1.6rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  color: var(--warzone);
 }
 
-.footer:hover{
-    transform: scale(1.02);
+.footer:hover {
+  transform: scale(1.02);
 }
 /* footer */

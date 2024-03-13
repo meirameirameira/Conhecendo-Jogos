@@ -2,259 +2,259 @@
 
 /* JOGOS */
 main {
-    width: 100%;
-    min-height: 70vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    display: flex;
-    flex-wrap: nowrap;
+  width: 100%;
+  min-height: 70vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .va {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
     url(../Images/va\ b.png);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .cs {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
     url(../Images/cs\ b.png);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .wz {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
     url(../Images/wz\ bpng.png);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 .ft {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
     url(../Images/ft\ b.png);
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .valorant {
-    font-family: "VALORANT";
-    font-size: 8rem;
+  font-family: "VALORANT";
+  font-size: 8rem;
 }
 .counter-strike {
-    font-family: "Counter-Strike", sans-serif;
-    font-size: 8rem;
+  font-family: "Counter-Strike", sans-serif;
+  font-size: 8rem;
 }
 .fortnite {
-    font-family: "Burbank Big Condensed Black";
-    font-size: 13rem;
+  font-family: "Burbank Big Condensed Black";
+  font-size: 13rem;
 }
 .warzone {
-    font-family: "CountachWeb Regular";
-    font-size: 13rem;
+  font-family: "CountachWeb Regular";
+  font-size: 13rem;
 }
 
 .hero-content {
-    transition: 0.3s;
-    margin: 8rem;
-    width: 100%;
-    padding: 6rem;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  transition: 0.3s;
+  margin: 8rem;
+  width: 100%;
+  padding: 6rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
-
 .hero-content h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .hero-content:hover {
-    transform: scale(1.03);
-    transition: 0.3s;
+  transform: scale(1.03);
+  transition: 0.3s;
 }
 /* JOGOS */
 
 /* DOWNLOADS */
 .btn {
-    font-size: 6rem;
-    border: 3px solid #fff;
-    padding: 8px 3.5rem;
-    transition: 0.3s;
-    font-weight: 600;
+  font-size: 6rem;
+  border: 3px solid #fff;
+  padding: 8px 3.5rem;
+  transition: 0.3s;
+  font-weight: 600;
 }
 
 .vava:hover {
-    color: var(--valorant);
-    border: 3px solid var(--valorant);
+  color: var(--valorant);
+  border: 3px solid var(--valorant);
 }
 .cs2:hover {
-    color: var(--cs);
-    border: 3px solid var(--cs);
+  color: var(--cs);
+  border: 3px solid var(--cs);
 }
 .wz2:hover {
-    color: var(--warzone);
-    border: 3px solid var(--warzone);
+  color: var(--warzone);
+  border: 3px solid var(--warzone);
 }
 .ftn:hover {
-    color: var(--fortnite);
-    border: 3px solid var(--fortnite);
+  color: var(--fortnite);
+  border: 3px solid var(--fortnite);
 }
 /* DOWNLOADS */
 
 /* Saiba Mais */
 .vaval {
-    color: var(--valorant);
+  color: var(--valorant);
 }
 
 .css2 {
-    color: var(--cs);
+  color: var(--cs);
 }
 
 .waz2 {
-    color: var(--warzone);
+  color: var(--warzone);
 }
 
 .frtn {
-    color: var(--fortnite);
+  color: var(--fortnite);
 }
 
 .vaval:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .css2:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .waz2:hover {
-    color: #fff;
+  color: #fff;
 }
 
 .frtn:hover {
-    color: #fff;
+  color: #fff;
 }
 /* Saiba Mais */
 
 /* Comparação */
 .tabela {
-    width: 100%;
-    height: auto;
-    background-color: var(--background);
-    border-bottom: 2px solid #fff;
+  width: 100%;
+  height: auto;
+  background-color: var(--background);
+  border-bottom: 2px solid #fff;
 }
 /* Comparação */
 .comp {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .tabela h1 {
-    color: #fff;
-    text-align: center;
-    padding-top: 5rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
 }
 
 table {
-    border: 2px solid #fff;
-    border-collapse: collapse;
-    color: #fff;
-    margin: 7rem;
-    text-align: center;
+  border: 2px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+  margin: 7rem;
+  text-align: center;
 }
 
-td, th {
-    padding: 4rem;
-    border-bottom: 1px solid #fff;
+td,
+th {
+  padding: 4rem;
+  border-bottom: 1px solid #fff;
 }
 
 .nome {
-    font-weight: 900;
-    font-size: 2rem;
+  font-weight: 900;
+  font-size: 2rem;
 }
 /* Comparação */
 
 /* Final */
-.icon{
-    font-size: 2rem;
+.icon {
+  font-size: 2rem;
 }
 
-.formcontainer{
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    padding: 4rem;
-    padding-bottom: 6rem;
-    background-color: var(--background);
-    color: #fff;
+.formcontainer {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 4rem;
+  padding-bottom: 6rem;
+  background-color: var(--background);
+  color: #fff;
 }
 
-.formcontainer h2{
-    text-align: center;
-    padding-bottom: 2rem;
-    font-size: 3rem;
+.formcontainer h2 {
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 3rem;
 }
 
-.formcontainer ul{
-    line-height: 2rem;
-    letter-spacing: 2px;
-    list-style: none;
-    font-size: 2rem;
-    font-weight: 300;
+.formcontainer ul {
+  line-height: 2rem;
+  letter-spacing: 2px;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 300;
 }
 
-.credito p{
-    padding: 2px;
+.credito p {
+  padding: 2px;
 }
 
-input{
-width: 100%;
-height: 40px;
-padding-left: 45px;
-font-size: 18px;
-background-color: transparent;
-border: 2px solid #fff;
-color: #fff;
+input {
+  width: 100%;
+  height: 40px;
+  padding-left: 45px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
 }
 
-input:focus{
-    outline-color: #fff;
-    color: #fff;
-    background-color: var(--background);
+input:focus {
+  outline-color: #fff;
+  color: #fff;
+  background-color: var(--background);
 }
 
-label{
-    font-size: 2rem;
-    letter-spacing: 2px;
+label {
+  font-size: 2rem;
+  letter-spacing: 2px;
 }
 
-.mail{
-    position: relative;
-    top: 31px;
-    left: -40px;
+.mail {
+  position: relative;
+  top: 31px;
+  left: -40px;
 }
 
-.box-form-button{
-    padding-top: 1rem;
-    text-align: right;
-    transition: .3s;
+.box-form-button {
+  padding-top: 1rem;
+  text-align: right;
+  transition: 0.3s;
 }
 
-.box-form-button button:hover{
-    color: #5f5f5f;
-    transform: scale(1.02);
+.box-form-button button:hover {
+  color: #5f5f5f;
+  transform: scale(1.02);
 }
 
-.box-form-button a:hover{
-    color: #5f5f5f;
-    transform: scale(1.02);
+.box-form-button a:hover {
+  color: #5f5f5f;
+  transform: scale(1.02);
 }
 
-button{
-    background-color: transparent;
-    color: #fff;
-    border: 0;
-    font-size: 1.8rem;
-    transition: .3s;
+button {
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+  font-size: 1.8rem;
+  transition: 0.3s;
 }
 /* Final */

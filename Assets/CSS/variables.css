@@ -1,16 +1,16 @@
-:root{
-    --valorant: #ff4655;
-    --dvalorant: #83232b;
-    --ddvalorant: #101b21;
-    --cs: #e58716;
-    --dcs: #7a4d14;
-    --ddcs: #2a377e;
-    --warzone: #d80000;
-    --dwarzone: #550000;
-    --ddwarzone: ;
-    --fortnite: #00dafe;
-    --dfortnite: rgb(0, 167, 196);
-    --ddfortnite: ;
-    --transition: .6s ;
-    --background: #161616;
+:root {
+  --valorant: #ff4655;
+  --dvalorant: #83232b;
+  --ddvalorant: #101b21;
+  --cs: #e58716;
+  --dcs: #7a4d14;
+  --ddcs: #2a377e;
+  --warzone: #d80000;
+  --dwarzone: #550000;
+  --ddwarzone: ;
+  --fortnite: #00dafe;
+  --dfortnite: rgb(0, 167, 196);
+  --ddfortnite: ;
+  --transition: 0.6s;
+  --background: #161616;
 }
