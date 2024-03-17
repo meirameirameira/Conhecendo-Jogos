@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
 /* HEADER */
 main {
   /* border: 1rem solid var(--valorant); */
@@ -18,8 +29,6 @@ main {
 .hero {
   background-color: var(--ddvalorant);
   padding: 2rem;
-  display: grid;
-  grid-template-areas: "title" "subtitle";
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -28,21 +37,17 @@ main {
 
 .hero h1 {
   font-size: 4.5rem;
-  font-family: "VALORANT";
-  grid-area: title;
   color: var(--valorant);
 }
 
 .hero p {
   font-size: 2rem;
-  grid-area: subtitle;
   color: #fff;
   padding: 2rem;
 }
 /* div */
 
 .mapas {
-  font-family: "VALORANT";
   color: var(--valorant);
   font-size: 4.5rem;
   border-top: 3px solid var(--valorant);
@@ -52,13 +57,13 @@ main {
 }
 
 /* cards */
+.grids{
+  background-color: var(--ddvalorant);
+}
+
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  grid-template-areas:
-    "card1 card2 card3"
-    "card4 card5 card6";
+  display: flex;
+  gap: 2rem;
   padding: 0 2rem;
   background-color: var(--ddvalorant);
 }
@@ -73,8 +78,7 @@ main {
 
 .card h2 {
   color: #fff;
-  font-family: "VALORANT";
-  font-size: 3rem;
+  font-size: 4vmin;
 }
 
 .card:hover {
@@ -87,29 +91,6 @@ main {
   border-radius: 3px;
 }
 
-.card1 {
-  grid-area: card1;
-}
-
-.card2 {
-  grid-area: card2;
-}
-
-.card3 {
-  grid-area: card3;
-}
-
-.card4 {
-  grid-area: card4;
-}
-
-.card5 {
-  grid-area: card5;
-}
-
-.card6 {
-  grid-area: card6;
-}
 /* cards */
 
 .hero-content2 {
@@ -120,11 +101,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   background-color: var(--ddvalorant);
+  white-space: nowrap;
 }
 
-.hero-content2 h1 {
+.hero-content2 a {
+  font-size: 9vmin;
   text-align: center;
 }
 
@@ -151,7 +133,7 @@ main {
 .footer {
   text-align: center;
   padding: 0.3rem;
-  font-size: 1.6rem;
+  font-size: 2vmin;
   background-color: var(--valorant);
   display: flex;
   justify-content: center;
@@ -161,3 +143,40 @@ main {
   transform: scale(1.02);
 }
 /* footer */
+
+@media (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    width: 100%;
+  }
+
+  .cards{
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 550px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  main {
+    width: 100%;
+  }
+}

@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+}
+
 /* Header */
 main {
   /* border: 1rem solid var(--valorant); */
@@ -18,8 +29,6 @@ main {
 .hero {
   background-color: var(--fortnite);
   padding: 2rem;
-  display: grid;
-  grid-template-areas: "title" "subtitle";
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -27,24 +36,20 @@ main {
 }
 
 .hero h1 {
-  font-size: 4.5rem;
-  font-family: "Burbank Big Condensed Black";
-  grid-area: title;
+  font-size: 4.5vmin;
   color: #fff;
 }
 
 .hero p {
-  font-size: 2rem;
-  grid-area: subtitle;
+  font-size: 3vmin;
   color: #fff;
   padding: 2rem;
 }
 /* div */
 
 .mapas {
-  font-family: "Burbank Big Condensed Black";
   color: #fff;
-  font-size: 4.5rem;
+  font-size: 4.5vmin;
   border-top: 3px solid #fff;
   background-color: var(--fortnite);
   padding: 5rem;
@@ -52,11 +57,15 @@ main {
 }
 
 /* cards */
+.grids{
+  background-color: var(--fortnite);
+}
+
 .cards {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 2rem;
+  margin: 0 20%;
   background-color: var(--fortnite);
 }
 
@@ -71,8 +80,7 @@ main {
 
 .card h2 {
   color: var(--fortnite);
-  font-size: 3rem;
-  font-family: "Burbank Big Condensed Black";
+  font-size: 4vmin;
 }
 
 .card:hover {
@@ -85,9 +93,6 @@ main {
   border-radius: 3px;
 }
 
-.card1 {
-  grid-area: card1;
-}
 /* cards */
 
 .hero-content2 {
@@ -98,11 +103,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   background-color: var(--fortnite);
+  white-space: nowrap;
 }
 
-.hero-content2 h1 {
+.hero-content2 a {
+  font-size: 9vmin;
   text-align: center;
 }
 
@@ -141,3 +147,40 @@ main {
   transform: scale(1.02);
 }
 /* footer */
+
+@media (max-width: 1200px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  main {
+    width: 100%;
+  }
+
+  .cards{
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 550px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
+  main {
+    width: 100%;
+  }
+}

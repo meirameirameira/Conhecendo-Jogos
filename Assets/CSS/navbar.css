@@ -13,6 +13,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 a {
@@ -54,11 +55,12 @@ header:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
 
 .menu {
   font-weight: 500;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 
@@ -88,7 +90,7 @@ header:hover {
 @media (max-width: 1200px) {
   .navbar {
     width: 100%;
-    font-size: 2.3vmin;
+    font-size: 3vmin;
   }
 }
 
@@ -96,6 +98,25 @@ header:hover {
   .navbar {
     width: 100%;
     font-size: 4vmin;
+    
+  }
+
+  header{
+    position: relative;
+    opacity: 100%;
+    background-color: var(--background);
+    transition: .3s;
+  }
+
+  ul{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    width: 100%;
+    font-size: 5vmin;
     
   }
 

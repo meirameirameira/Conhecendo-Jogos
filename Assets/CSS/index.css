@@ -40,11 +40,6 @@ main {
     url(../Images/valorant/va\ b.png);
   transition: 0.3s;
 }
-.cs {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
-    url(../Images/cs/cs\ b.png);
-  transition: 0.3s;
-}
 .wz {
   background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
     url(../Images/wz/wz\ bpng.png);
@@ -54,23 +49,6 @@ main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.616), #0000007e),
     url(../Images/fort/ft\ b.png);
   transition: 0.3s;
-}
-
-.valorant {
-  font-family: "VALORANT";
-  font-size: 9rem;
-}
-.counter-strike {
-  font-family: "Counter-Strike", sans-serif;
-  font-size: 9rem;
-}
-.fortnite {
-  font-family: "Burbank Big Condensed Black";
-  font-size: 13rem;
-}
-.warzone {
-  font-family: "CountachWeb Regular";
-  font-size: 13rem;
 }
 
 .hero-content {
@@ -86,7 +64,12 @@ main {
   flex-direction: column;
 }
 .hero-content h1 {
+  font-size: 9vmin;
   text-align: left;
+}
+
+.hero-content a{
+  font-size: 5vmin;
 }
 
 .hero-content:hover {
@@ -108,10 +91,6 @@ main {
   color: var(--valorant);
   border: 3px solid var(--valorant);
 }
-.cs2:hover {
-  color: var(--cs);
-  border: 3px solid var(--cs);
-}
 .wz2:hover {
   color: var(--warzone);
   border: 3px solid var(--warzone);
@@ -127,10 +106,6 @@ main {
   color: var(--valorant);
 }
 
-.css2 {
-  color: var(--cs);
-}
-
 .waz2 {
   color: var(--warzone);
 }
@@ -140,10 +115,6 @@ main {
 }
 
 .vaval:hover {
-  color: #fff;
-}
-
-.css2:hover {
   color: #fff;
 }
 
@@ -229,6 +200,7 @@ th {
 
 .credito p {
   padding: 2px;
+  border-bottom: 1px solid #fff;
 }
 
 input {
@@ -283,24 +255,12 @@ button {
 }
 /* Final */
 
-hr {
-  width: 200px;
-  height: 2px;
-  border: none;
-}
 
 @media (max-width: 1200px) {
   main {
     width: 100%;
   }
 
-  .media {
-    font-size: 7rem;
-  }
-
-  .img {
-    font-size: 5rem;
-  }
 }
 
 @media (max-width: 900px) {
@@ -308,22 +268,6 @@ hr {
     width: 100%;
   }
 
-  .valorant {
-    font-size: 6rem;
-  }
-  .counter-strike {
-    font-size: 6rem;
-  }
-  .warzone {
-    font-size: 8rem;
-  }
-  .fortnite {
-    font-size: 8rem;
-  }
-
-  .img {
-    font-size: 4rem;
-  }
 }
 
 @media (max-width: 550px) {
@@ -332,22 +276,6 @@ hr {
     min-height: 50vh;
   }
 
-  .valorant {
-    font-size: 6rem;
-  }
-  .counter-strike {
-    font-size: 5rem;
-  }
-  .warzone {
-    font-size: 8rem;
-  }
-  .fortnite {
-    font-size: 8rem;
-  }
-
-  .img {
-    font-size: 4rem;
-  }
 }
 
 @media (max-width: 450px) {
@@ -356,22 +284,6 @@ hr {
     min-height: 40vh;
   }
 
-  .valorant {
-    font-size: 5rem;
-  }
-  .counter-strike {
-    font-size: 4.3rem;
-  }
-  .warzone {
-    font-size: 7rem;
-  }
-  .fortnite {
-    font-size: 7rem;
-  }
-
-  .img {
-    font-size: 3rem;
-  }
 }
 
 @media (max-width: 350px) {
@@ -380,20 +292,4 @@ hr {
     min-height: 40vh;
   }
 
-  .valorant {
-    font-size: 4rem;
-  }
-  .counter-strike {
-    font-size: 3rem;
-  }
-  .warzone {
-    font-size: 6rem;
-  }
-  .fortnite {
-    font-size: 6rem;
-  }
-
-  .img {
-    font-size: 2rem;
-  }
 }
