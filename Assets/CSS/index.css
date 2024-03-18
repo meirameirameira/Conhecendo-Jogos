@@ -68,7 +68,7 @@ main {
   text-align: left;
 }
 
-.hero-content a{
+.hero-content a {
   font-size: 5vmin;
 }
 
@@ -255,19 +255,16 @@ button {
 }
 /* Final */
 
-
 @media (max-width: 1200px) {
   main {
     width: 100%;
   }
-
 }
 
 @media (max-width: 900px) {
   main {
     width: 100%;
   }
-
 }
 
 @media (max-width: 550px) {
@@ -275,7 +272,6 @@ button {
     width: 100%;
     min-height: 50vh;
   }
-
 }
 
 @media (max-width: 450px) {
@@ -283,7 +279,6 @@ button {
     width: 100%;
     min-height: 40vh;
   }
-
 }
 
 @media (max-width: 350px) {
@@ -291,5 +286,4 @@ button {
     width: 100%;
     min-height: 40vh;
   }
-
 }

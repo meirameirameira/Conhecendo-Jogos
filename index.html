@@ -24,7 +24,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>ProjetoBase</title>
+    <title>Informações de Jogos</title>
 
     <link rel="stylesheet" href="./Assets/CSS/index.css" />
     <link rel="stylesheet" href="./Assets/CSS/variables.css" />
@@ -37,7 +37,7 @@
         <nav>
           <ul>
             <li>
-              <a href="#home" class="menu home"
+              <a href="#home" class="menu home" title="Ir ao Topo"
                 ><i class="fa-solid fa-house"></i
               ></a>
             </li>
@@ -48,9 +48,21 @@
       <div>
         <nav>
           <ul>
-            <li><a href="#valorant" class="menu vavalo">VALORANT</a></li>
-            <li><a href="#warzone" class="menu wazo2">WARZONE</a></li>
-            <li><a href="#fortnite" class="menu frtnt">FORTNITE</a></li>
+            <li>
+              <a href="#valorant" class="menu vavalo" title="Ir até Valorant"
+                >VALORANT</a
+              >
+            </li>
+            <li>
+              <a href="#warzone" class="menu wazo2" title="Ir até Warzone"
+                >WARZONE</a
+              >
+            </li>
+            <li>
+              <a href="#fortnite" class="menu frtnt" title="Ir até Fortnite"
+                >FORTNITE</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -59,7 +71,7 @@
         <nav>
           <ul>
             <li>
-              <a href="#compa" class="menu compa"
+              <a href="#compa" class="menu compa" title="Ir até Tabela"
                 ><i class="fa-solid fa-chart-bar"></i
               ></a>
             </li>
@@ -72,13 +84,14 @@
     <!-- JOGOS -->
     <main class="va jogos" id="valorant">
       <div class="hero-content">
-        <a href="./Assets/Pages/valorant.html" class="vaval"
+        <a href="./Assets/Pages/valorant.html" class="vaval" title="Saiba Mais"
           ><h1 class="valorant media">VALORANT</h1></a
         >
         <a
           href="https://playvalorant.com/pt-br/download/"
           class="btn vava img"
           target="_blank"
+          title="Site de Download"
           ><i class="fa-solid fa-arrow-down"></i>DOWNLOAD</a
         >
       </div>
@@ -86,13 +99,14 @@
 
     <main class="wz jogos" id="warzone">
       <div class="hero-content">
-        <a href="./Assets/Pages/warzoneii.html" class="waz2"
+        <a href="./Assets/Pages/warzoneii.html" class="waz2" title="Saiba Mais"
           ><h1 class="warzone media">WARZONE</h1></a
         >
         <a
           href="https://www.callofduty.com/br/pt/warzone"
           class="btn wz2 img"
           target="_blank"
+          title="Site de Download"
           ><i class="fa-solid fa-arrow-down"></i>DOWNLOAD</a
         >
       </div>
@@ -100,10 +114,14 @@
 
     <main class="ft jogos" id="fortnite">
       <div class="hero-content">
-        <a href="./Assets/Pages/fortnite.html" class="frtn"
+        <a href="./Assets/Pages/fortnite.html" class="frtn" title="Saiba Mais"
           ><h1 class="fortnite media">FORTNITE</h1></a
         >
-        <a href="https://www.fortnite.com" class="btn ftn img" target="_blank"
+        <a
+          href="https://www.fortnite.com"
+          class="btn ftn img"
+          target="_blank"
+          title="Site de Download"
           ><i class="fa-solid fa-arrow-down"></i>DOWNLOAD</a
         >
       </div>
@@ -200,12 +218,13 @@
               name="email"
               id="email"
               placeholder="Ex: nome@email.com"
+              title="Seu Email"
             />
           </div>
 
           <div class="box-form-button">
             <button type="submit">
-              <a href="./Assets/Pages/feedback.html"
+              <a href="./Assets/Pages/feedback.html" title="Enviar"
                 >Enviar <i class="fa-solid fa-arrow-right"></i
               ></a>
             </button>

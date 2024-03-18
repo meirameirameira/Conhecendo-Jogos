@@ -5,7 +5,7 @@
   font-family: "Lexend", sans-serif;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -57,7 +57,7 @@ main {
 }
 
 /* cards */
-.grids{
+.grids {
   background-color: var(--warzone);
 }
 
@@ -159,7 +159,7 @@ main {
     width: 100%;
   }
 
-  .cards{
+  .cards {
     flex-direction: column;
     width: 80%;
     align-items: center;

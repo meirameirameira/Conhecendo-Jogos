@@ -5,7 +5,7 @@
   font-family: "Lexend", sans-serif;
 }
 
-body{
+body {
   overflow-x: hidden;
 }
 
@@ -57,7 +57,7 @@ main {
 }
 
 /* cards */
-.grids{
+.grids {
   background-color: var(--ddvalorant);
 }
 
@@ -127,13 +127,14 @@ main {
 .btn:hover {
   color: #fff;
   border: 3px solid #fff;
+  transform: scale(1.03);
 }
 
 /* footer */
 .footer {
   text-align: center;
   padding: 0.3rem;
-  font-size: 2vmin;
+  font-size: 1.6rem;
   background-color: var(--valorant);
   display: flex;
   justify-content: center;
@@ -155,7 +156,7 @@ main {
     width: 100%;
   }
 
-  .cards{
+  .cards {
     flex-direction: column;
     width: 80%;
     align-items: center;
