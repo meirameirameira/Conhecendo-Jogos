@@ -135,6 +135,8 @@ main {
   border-bottom: 2px solid #fff;
 }
 /* Comparação */
+.compa {
+}
 .comp {
   display: flex;
   justify-content: center;
@@ -148,28 +150,29 @@ main {
 }
 
 .comp table {
+  font-size: 2vmin;
   width: 100%;
   border: 2px solid #fff;
   border-collapse: collapse;
   color: #fff;
-  margin: 7rem;
+  margin: 7vmin;
   text-align: center;
 }
 
 td,
 th {
-  padding: 4rem;
+  border-left: 1px solid #fff;
+  padding: 2rem;
 }
 
 .nome {
   font-weight: 900;
-  font-size: 2rem;
 }
 /* Comparação */
 
 /* Final */
 .icon {
-  font-size: 2rem;
+  /* font-size: 2rem; */
 }
 
 .formcontainer {
@@ -259,11 +262,29 @@ button {
   main {
     width: 100%;
   }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 1rem;
+  }
 }
 
 @media (max-width: 900px) {
   main {
     width: 100%;
+  }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
   }
 }
 
@@ -272,6 +293,15 @@ button {
     width: 100%;
     min-height: 50vh;
   }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
+  }
 }
 
 @media (max-width: 450px) {
@@ -279,11 +309,29 @@ button {
     width: 100%;
     min-height: 40vh;
   }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
+  }
 }
 
 @media (max-width: 350px) {
   main {
     width: 100%;
     min-height: 40vh;
+  }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
   }
 }
