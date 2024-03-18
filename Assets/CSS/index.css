@@ -135,8 +135,6 @@ main {
   border-bottom: 2px solid #fff;
 }
 /* Comparação */
-.compa {
-}
 .comp {
   display: flex;
   justify-content: center;
@@ -171,10 +169,6 @@ th {
 /* Comparação */
 
 /* Final */
-.icon {
-  /* font-size: 2rem; */
-}
-
 .formcontainer {
   height: auto;
   display: flex;
