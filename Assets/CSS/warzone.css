@@ -5,7 +5,7 @@
   font-family: "Lexend", sans-serif;
 }
 
-body {
+html {
   overflow-x: hidden;
 }
 
@@ -50,7 +50,6 @@ main {
 .mapas {
   color: #fff;
   font-size: 4.5vmin;
-  border-top: 3px solid #fff;
   background-color: var(--warzone);
   padding: 5rem;
   text-align: center;
@@ -66,6 +65,7 @@ main {
   gap: 2rem;
   padding: 0 2rem;
   background-color: var(--warzone);
+  padding-bottom: 5rem;
 }
 
 .card {
@@ -148,9 +148,57 @@ main {
 }
 /* footer */
 
+/* Comparação */
+.tabela {
+  width: 100%;
+  height: auto;
+  background-color: var(--warzone);
+}
+/* Comparação */
+.comp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.comp table {
+  font-size: 2vmin;
+  width: 100%;
+  border: 2px solid #fff;
+  border-collapse: collapse;
+  color: #fff;
+  margin: 7vmin;
+  text-align: center;
+}
+
+td,
+th {
+  border-left: 1px solid #fff;
+  padding: 2rem;
+}
+
+.nome {
+  font-weight: 900;
+}
+
 @media (max-width: 1200px) {
   main {
     width: 100%;
+  }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
   }
 }
 
@@ -165,11 +213,29 @@ main {
     align-items: center;
     margin: 0 auto;
   }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
+  }
 }
 
 @media (max-width: 550px) {
   main {
     width: 100%;
+  }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
   }
 }
 
@@ -177,10 +243,28 @@ main {
   main {
     width: 100%;
   }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
+  }
 }
 
 @media (max-width: 350px) {
   main {
     width: 100%;
+  }
+
+  .comp table {
+    font-size: 2vmin;
+  }
+
+  td,
+  th {
+    padding: 0;
   }
 }
