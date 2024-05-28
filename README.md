@@ -1,3 +1,8 @@
+
+<p align="center">
+    <img src="https://github.com/meirameirameira/Conhecendo-Jogos/assets/132008120/8c8112f2-dadb-46e3-b1bb-1ddc167f71a6">
+  </p>
+
 # Olha a Responsividade! - Desenvolvimento de um Website
 
  Todos os conhecimentos adquiridos em HTML e CSS serão extremamente úteis para desenvolver a aplicação HTML. Assim, para pensarmos na veiculação do projeto HappyGame, indo além dos stakeholders, e com o intuito de divulgá-lo para mais pessoas/usuários pelo Brasil, você e seu grupo desenvolverão um website com o que consideraram mais relevante na atividade “Descrição Preliminar do Projeto HappyGame” que fizeram. Essas são informações iniciais apenas, ok? Vocês podem incluir mais dados para compor o conteúdo do site, além de trazerem informações do próprio projeto (o que estão pensando em fazer). Para isso, vocês devem criar, no máximo, cinco páginas HTML, como segue:
